@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const products = [
-    { name: "Apple", category: "Fruits", price: 1.5, image: "https://raw.githubusercontent.com/ruubendiazz/grocery-shop/main/assets/images/apple.png" },
-    { name: "Banana", category: "Fruits", price: 0.8, image: "https://raw.githubusercontent.com/ruubendiazz/grocery-shop/main/assets/images/banana.png" },
-    { name: "Carrot", category: "Vegetables", price: 0.5, image: "https://raw.githubusercontent.com/ruubendiazz/grocery-shop/main/assets/images/carrot.png" },
-    { name: "Potato", category: "Vegetables", price: 0.3, image: "https://raw.githubusercontent.com/ruubendiazz/grocery-shop/main/assets/images/potato.png" },
+    { name: "Apple", category: "Fruits", price: 1.5, image: "https://raw.githubusercontent.com/rubendiazzz/grocery-shop/main/assets/images/apple.png" },
+    { name: "Banana", category: "Fruits", price: 0.8, image: "https://raw.githubusercontent.com/rubendiazzz/grocery-shop/main/assets/images/banana.png" },
+    { name: "Carrot", category: "Vegetables", price: 0.5, image: "https://raw.githubusercontent.com/rubendiazzz/grocery-shop/main/assets/images/carrot.png" },
+    { name: "Potato", category: "Vegetables", price: 0.3, image: "https://raw.githubusercontent.com/rubendiazzz/grocery-shop/main/assets/images/potato.png" },
 ];
 
     const productContainer = document.getElementById("product-container");
