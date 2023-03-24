@@ -11,20 +11,25 @@
   header {
     background-color: #333;
     padding: 1rem;
-    display: flex; /* Add this line */
-    align-items: center; /* Add this line */
+    display: flex; 
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    z-index: 3;
   }
   
   header h1 {
     color: #fff;
-    display: inline;
+    display: flex;
+    text-align: left;
+    justify-content: center;
   }
   
   nav ul {
     list-style: none;
     display: inline;
     float: right;
-    margin-left: auto; /* Add this line */
+    margin-left: auto;
   }
   
   nav li {
